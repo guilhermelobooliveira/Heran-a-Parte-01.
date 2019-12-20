@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exercício1;
+
+/**
+ *
+ * @author Marino
+ */
+public class Cachorro extends Animal {
+    private String raca;
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
+
+    @Override
+    public String toString() {
+        return " O Nome do (a) Cachorro (a) é: " + super.getNome() + " O Peso do Cachorro (a) é: " + super.getPeso() + " A Raça do Cachorro (a) é: " + this.raca;
+    }
+    
+}
